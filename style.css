@@ -17,7 +17,18 @@
   /*border: solid white 1px;*/
 }
 body {
-  background-color: black;
+  background: url(./img/bg-home.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  transition: ease-out;
+}
+.hoverbg {
+  background: #1b1a1a;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-text-stroke: inherit;
 }
 h1 {
   font-family: "Monument";
@@ -27,6 +38,7 @@ h1:hover {
   cursor: pointer;
 }
 .name {
+  -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px white;
   font-size: 5rem;
   font-family: "Monument Bold";
@@ -45,7 +57,7 @@ h1:hover {
 
 .navitem {
   -webkit-text-stroke: 0.5px white;
-  transition: 0.1s ease-in-out;
+  transition: ease-in-out;
   font-size: 3rem;
   margin: 2rem;
 }
