@@ -27,13 +27,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
-  border: 2px solid #2f2018;
+  border: 3px solid #2f201850;
   border-top: none;
   border-bottom: none;
 }
 .nav {
-  position: relative;
-  top: -5%;
   margin-left: 5%;
   width: 90%;
 }
@@ -128,16 +126,19 @@ img {
   width: inherit;
   background: linear-gradient(
     0deg,
-    rgba(255, 108, 17, 0.08) 0%,
+    rgba(255, 108, 17, 0.005) 0%,
     rgba(255, 107, 17, 0) 100%
   );
-  opacity: 50%;
   cursor: pointer;
   position: absolute;
   text-align: center;
 }
 .expand:hover {
-  opacity: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 108, 17, 0.089) 0%,
+    rgba(255, 107, 17, 0) 100%
+  );
   padding-bottom: 10px;
 }
 #expand-icon {
@@ -239,10 +240,10 @@ p b {
 .container .card {
   cursor: pointer;
   margin-top: 20px;
-  width: 270px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 18px;
   display: flex;
   align-items: flex-end;
 }
@@ -252,16 +253,17 @@ p b {
   padding-left: 15px;
   font-family: "Monument";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 .container .card p {
   font-size: 15px;
   padding: 0 0 15px 15px;
   line-height: normal;
+  opacity: 80%;
 }
 .text {
-  border-radius: 16px;
+  border-radius: 18px;
 
   background: linear-gradient(
     0deg,
@@ -284,6 +286,8 @@ p b {
     rgba(0, 0, 0, 0.6) 0%,
     rgba(0, 0, 0, 0.2) 100%
   );
+  backdrop-filter: blur(1px);
+
   opacity: 100%;
 }
 
