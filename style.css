@@ -1,0 +1,363 @@
+@font-face {
+  font-family: "Monument";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Monument"), url("MonumentExtended-Regular.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /*border: solid white 1px;*/
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+}
+
+.inner {
+  background-color: #181818;
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  border: 2px solid #2f2018;
+  border-top: none;
+  border-bottom: none;
+}
+.nav {
+  position: relative;
+  top: -5%;
+  margin-left: 5%;
+  width: 90%;
+}
+.nav ul {
+  margin-bottom: 15%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav ul li a {
+  font-family: "Lufga";
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  background-image: linear-gradient(
+    215deg,
+    rgba(255, 107, 17, 1) 0%,
+    rgba(255, 54, 45, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.nav ul li .gradient-text {
+  font-weight: 6s00;
+}
+.header {
+  /* border: 0.4px solid white; */
+}
+img {
+  pointer-events: none;
+
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#first img {
+  width: 100%;
+}
+.hed {
+  height: auto;
+}
+
+#first h1 {
+  font-family: "Monument", sans-serif;
+  margin-bottom: -21px;
+  font-size: 92px;
+  padding-left: 5%;
+}
+#first .slight-text {
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    215deg,
+    rgba(255, 107, 17, 1) 0%,
+    rgba(255, 54, 45, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.slight-text {
+  -webkit-text-stroke: 0.3px #a34a0a90;
+  -webkit-text-fill-color: #261b19;
+}
+
+.expand {
+  display: block;
+  transition: 0.5s ease;
+  width: inherit;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 108, 17, 0.08) 0%,
+    rgba(255, 107, 17, 0) 100%
+  );
+  opacity: 50%;
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+}
+.expand:hover {
+  opacity: 100%;
+  padding-bottom: 10px;
+}
+#expand-icon {
+  padding-bottom: 20px;
+  color: white;
+  font-size: 34px;
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+#about {
+}
+
+#about {
+  justify-content: flex-start;
+}
+
+.poop {
+  width: 90%;
+  margin: auto;
+}
+
+.poop .gradient-text {
+  font-weight: 400;
+  font-family: "Monument", sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
+#about .exptitle {
+  font-weight: 500;
+}
+.next-icon {
+  transform: translateY(10px);
+  background-image: linear-gradient(
+    215deg,
+    rgba(255, 107, 17, 1) 0%,
+    rgba(255, 54, 45, 1) 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-family: "Lufga";
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 33px;
+}
+
+p a {
+  cursor: pointer;
+  color: #ff5b1a;
+  font-weight: 500;
+}
+
+p b {
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container .card {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 270px;
+  height: 270px;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container .card h1 {
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-family: "Monument";
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.container .card p {
+  font-size: 15px;
+  padding: 0 0 15px 15px;
+  line-height: normal;
+}
+.text {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  height: inherit;
+  width: inherit;
+  transition: 0.3s ease;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  opacity: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    background-color: lightblue;
+  }
+  #first {
+  }
+  .inner {
+    padding-top: 20%;
+    width: 100vw;
+    background-color: #181818;
+    margin: auto;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    border: 2px solid #2f2018;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  #first h1 {
+    font-size: 13.2vw;
+    padding-left: 5%;
+    padding-bottom: 3%;
+  }
+  #first .slight-text {
+    font-size: 5.5vw;
+    padding-bottom: 5%;
+  }
+  .expand {
+    transition: 0.5s ease;
+    width: inherit;
+    background: linear-gradient(
+      0deg,
+      rgba(255, 108, 17, 0.005) 0%,
+      rgba(255, 107, 17, 0) 100%
+    );
+    cursor: pointer;
+    align-items: bottom;
+    text-align: center;
+  }
+
+  #about {
+    margin: 0;
+    padding-top: 10%;
+  }
+  #about * {
+    padding: 0;
+    margin: 0;
+  }
+  #about .poop {
+    padding-left: 5%;
+    width: 90%;
+    font-size: 1px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .container .card {
+    margin-top: 20px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    opacity: 100;
+  }
+}
