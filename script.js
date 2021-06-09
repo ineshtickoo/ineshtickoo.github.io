@@ -1,30 +1,39 @@
 const projects = [
     {
         name: "Potus",
-        description: "This is an example description",
-
+        description: "Concept Kanye West Album, Branding and UI/UX",
+        image: "https://i.imgur.com/gWxQiQB.png"
     },
     {
         name: "Hlo+",
-        description: "Randirona",
+        description: "Smart hyperlocalisation and crowd control system using 5G",
+        image:"https://i.imgur.com/RR2rEan.png"
 
     },
     {
         name: "RediSafe",
         description: "This is an example description",
-
+        image: "https://i.imgur.com/RR2rEan.png"
     },
     {
         name: "Sahay",
-        description: "bruh"
+        description: "bruh",
+        image: "https://i.imgur.com/9x5I6Z6.png"
     },
     {
         name: "SayLore",
-        description: "Concept fashion brand and shop UI/UX"
+        description: "Concept fashion brand and shop UI/UX",
+        image: "https://i.imgur.com/9x5I6Z6.png"
     },
     {
         name: "Cryptocracy",
-        description: "International Cryptic Hunt - branding and platform UI"
+        description: "International Cryptic Hunt - branding and platform UI", 
+        image: "https://i.imgur.com/Rw19KGO.png"
+    },
+    {
+        name: "CORE Website",
+        description: "Computers society of Delhi Public School, Dwarka",
+        image: "https://i.imgur.com/Ay6yWtA.png"
     }
 ];
 

@@ -42,6 +42,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style-type: none;
 }
 .nav ul li a {
   font-family: "Lufga";
@@ -278,7 +279,8 @@ p b {
   flex-direction: column;
   justify-content: flex-end;
 }
-
+#projects {
+}
 .text:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(
