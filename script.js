@@ -52,9 +52,25 @@ document.querySelector('.container').innerHTML=`${
 }`;
 
 
+function navopen(){
+    document.querySelector('.navmob').style.display = 'block'   
+}
+function navclose(){
+    document.querySelector('.navmob').style.display = 'none'  
+
+}
+
+document.querySelector('#bars').addEventListener('click', navopen)
+document.querySelector('#cross').addEventListener('click', navclose)
+
+document.querySelector('.navel').addEventListener('click', navclose)
+
+
 const skills = [
     {
         skill: "bruh",
         desc: "5 stars"
     }
 ]
+
+
