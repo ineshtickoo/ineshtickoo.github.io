@@ -69,6 +69,8 @@ document.querySelectorAll('.navel').forEach(
         }
     )
 
+document.getElementsByTagName("form")[0].setAttribute("action", "https://formspree.io/f/xvodrwln")
+
 
 const skills = [
     {

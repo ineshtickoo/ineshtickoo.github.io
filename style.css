@@ -367,6 +367,100 @@ p b {
   bottom: 25%;
 }
 
+#work,
+#contact {
+  padding-top: 5%;
+  height: auto;
+}
+
+#footer {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  height: auto;
+}
+
+#footer .poop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#footer .gradient-text {
+  font-size: 1rem;
+  font-family: "Lufga";
+  font-weight: 600;
+  float: left;
+}
+
+#footer .mail {
+  width: 50%;
+}
+#footer span {
+  font-size: 1rem;
+  font-family: "Lufga";
+  text-align: left;
+  margin: auto;
+  width: 90%;
+  opacity: 40%;
+  margin-top: 2%;
+  font-weight: 400;
+  color: white;
+  background-image: none;
+}
+
+#footer #contact {
+  padding-bottom: 5%;
+}
+
+.poop .socials {
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  outline: none;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 5%;
+}
+
+#contact form input,
+textarea {
+  color: white;
+  font-size: 15px;
+  font-family: "Lufga";
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #ff5b1a18;
+  border: 2px solid #ff5b1a10;
+  outline: none;
+}
+#contact form #submit {
+  background: linear-gradient(
+    215deg,
+    rgba(255, 107, 17, 1) 0%,
+    rgba(255, 54, 45, 1) 100%
+  );
+  color: white;
+  border: none;
+}
+
+#contact form ::placeholder {
+  color: #ffffff46;
+}
+
+#contact form label {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Lufga";
+}
+
+#message {
+  margin-bottom: 0.8rem;
+}
+
 @media only screen and (max-width: 850px) {
   body {
     background-color: lightblue;
@@ -491,5 +585,22 @@ p b {
 
   .text {
     opacity: 100;
+  }
+  #contact form {
+    width: 100%;
+  }
+  .poop .socials {
+    position: relative;
+    margin-bottom: 4rem;
+  }
+  .poop .socials li {
+    float: left;
+  }
+
+  #footer .poop {
+    flex-direction: column;
+  }
+  #footer .poop p {
+    font-size: 1.2rem;
   }
 }
