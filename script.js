@@ -40,7 +40,7 @@ const projects = [
         name: "CORE",
         description: "Website for the computers society of Delhi Public School, Dwarka",
         image: "https://i.imgur.com/Ay6yWtA.png",
-        link: "https://cryptichunt.com"
+        link: "https://coreisus.co"
     }
 ];
 
