@@ -278,7 +278,9 @@ p b {
   align-items: center;
   width: 100%;
 }
-
+.container a {
+  text-decoration: none;
+}
 .container .card {
   cursor: pointer;
   margin-top: 20px;
