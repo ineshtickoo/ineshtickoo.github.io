@@ -63,7 +63,11 @@ function navclose(){
 document.querySelector('#bars').addEventListener('click', navopen)
 document.querySelector('#cross').addEventListener('click', navclose)
 
-document.querySelector('.navel').addEventListener('click', navclose)
+document.querySelectorAll('.navel').forEach(
+    navel=>{
+        navel.addEventListener('click', navclose)
+        }
+    )
 
 
 const skills = [
