@@ -49,7 +49,8 @@ const projects = [
 document.querySelector('.container').innerHTML=`${
     projects.map(project => {
         return (`
-            <a target="__blank" href="${project.link}"><div class="card" id="${project.name}box" style="background-image:url(./projects/${project.name.toLowerCase()}/cover.png) ">
+            <a target="__blank" href="${project.link}">
+            <div class="card" id="${project.name}box" style="background-image:url(./projects/${project.name.toLowerCase()}/cover.png) ">
                 <div class="text" id="${project.name}text">
                     <h1> ${project.name} </h1>
                     <p>  ${project.description} </p>
