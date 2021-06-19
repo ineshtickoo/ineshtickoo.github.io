@@ -35,13 +35,14 @@ body {
   display: none;
 }
 .nav {
+  height: auto;
   position: relative;
   top: 3%;
   margin-left: 5%;
   width: 90%;
 }
 .nav ul {
-  margin-bottom: 15%;
+  margin-bottom: 8vh;
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -79,6 +80,7 @@ body {
 .socials {
   margin-left: 5%;
   transform: translateY(20px);
+  height: auto;
 }
 .socials i {
   display: none;
@@ -468,8 +470,6 @@ textarea {
 @media only screen and (max-width: 850px) {
   body {
     background-color: lightblue;
-  }
-  #first {
   }
   .inner {
     padding-top: 20%;
