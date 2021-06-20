@@ -79,12 +79,12 @@ document.querySelectorAll('.navel').forEach(
 
 const expand = document.querySelector(".expand")
 
-expand.onmouseover = ()=>{
-    document.querySelector("#expand-icon").style.transform = "translateY(10px)"
- }
-expand.onmouseout = ()=>{
-    document.querySelector("#expand-icon").style.transform = "translateY(-10px)"
-}
+// expand.onmouseover = ()=>{
+//     document.querySelector("#expand-icon").style.transform = "translateY(10px)"
+//  }
+// expand.onmouseout = ()=>{
+//     document.querySelector("#expand-icon").style.transform = "translateY(-10px)"
+// }
 document.getElementsByTagName("form")[0].setAttribute("action", "https://formspree.io/f/xvodrwln")
 
 
