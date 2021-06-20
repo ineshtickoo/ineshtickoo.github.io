@@ -38,7 +38,7 @@ const projects = [
     },
     {
         name: "CORE",
-        description: " Website for the computers society of Delhi Public School, Dwarka- Computer Obsessed Radical Enthusiasts.,",
+        description: "Website for CORE, the computers society of Delhi Public School, Dwarka",
         image: "https://i.imgur.com/Ay6yWtA.png",
         link: "https://coreisus.co"
     }
