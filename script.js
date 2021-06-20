@@ -1,13 +1,13 @@
 const projects = [
     {
         name: "Potus",
-        description: "Concept Kanye West Album, Branding and UI/UX",
+        description: "Concept Kanye West Album; Complete branding and app UI/UX Design",
         image: "https://i.imgur.com/gWxQiQB.png",
         link: "https://www.behance.net/gallery/108134777/POTUS-Concept-Kanye-West-Album-and-UIUX"
     },
     {
         name: "Hlo+",
-        description: "Smart hyperlocalisation and crowd control system using 5G",
+        description: "Smart hyperlocalisation and crowd control system using 5G. UI/UX and workflow.",
         image:"https://i.imgur.com/RR2rEan.png",
         link: "https://www.behance.net/gallery/119577627/Hlo-UIUX"
 
@@ -26,19 +26,19 @@ const projects = [
     },
     {
         name: "SayLore",
-        description: "Concept fashion brand and shop UI/UX",
+        description: "Concept fashion brand based on Saylor Twift. Branding, shop 3D models and app UI/UX . ",
         image: "https://i.imgur.com/9x5I6Z6.png",
         link: "https://www.behance.net/gallery/90181055/SayLor-Beauty-Products"
     },
     {
         name: "Cryptocracy",
-        description: "International Cryptic Hunt - branding and platform UI", 
+        description: "International 48-hour Cryptic Hunt. Complete branding and website/platform UI", 
         image: "https://i.imgur.com/Rw19KGO.png",
         link: "https://cryptichunt.com"
     },
     {
         name: "CORE",
-        description: "Website for the computers society of Delhi Public School, Dwarka",
+        description: " Website for the computers society of Delhi Public School, Dwarka- Computer Obsessed Radical Enthusiasts.,",
         image: "https://i.imgur.com/Ay6yWtA.png",
         link: "https://coreisus.co"
     }
@@ -77,6 +77,14 @@ document.querySelectorAll('.navel').forEach(
         }
     )
 
+const expand = document.querySelector(".expand")
+
+expand.onmouseover = ()=>{
+    document.querySelector("#expand-icon").style.transform = "translateY(10px)"
+ }
+expand.onmouseout = ()=>{
+    document.querySelector("#expand-icon").style.transform = "translateY(-10px)"
+}
 document.getElementsByTagName("form")[0].setAttribute("action", "https://formspree.io/f/xvodrwln")
 
 
