@@ -285,9 +285,16 @@ p {
 }
 
 p a {
+  text-decoration: none;
   cursor: pointer;
   color: #ff5b1a;
   font-weight: 500;
+  border-bottom: 2px solid #ff5b1a20;
+  transition: 0.3s ease-in-out;
+}
+
+p a:hover {
+  border-bottom: 2px solid #ff5b1a40;
 }
 
 p b {
