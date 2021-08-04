@@ -1,6 +1,6 @@
 const projects = [
     {
-        name: "Harry Potter",
+        name: "Harry Potter Redesign",
         description: "Complete revamp of novel book covers, page layouts, new posters, website UI/UX and a trailer video!",
         image: "",
         link: "https://www.behance.net/gallery/124344065/Harry-Potter-Series-Design-Revamp"
@@ -61,6 +61,19 @@ const projects = [
 
 document.querySelector('.container').innerHTML=`${
     projects.map(project => {
+        if (project.name==="Harry Potter Redesign"){
+            return (
+                `
+                <a target="__blank" href="${project.link}">
+                <div class="card" id="hpbox" style="background-image:url(./projects/hpredes/cover.png) ">
+                    <div class="text" id="${project.name}text">
+                        <h1> ${project.name} </h1>
+                        <p>  ${project.description} </p>
+                    </div>
+                </div> </a>`
+            )
+        }
+        else{
         return (`
             <a target="__blank" href="${project.link}">
             <div class="card" id="${project.name}box" style="background-image:url(./projects/${project.name.toLowerCase()}/cover.png) ">
@@ -69,6 +82,7 @@ document.querySelector('.container').innerHTML=`${
                     <p>  ${project.description} </p>
                 </div>
             </div> </a>`)
+        }
     }).join('')
 }`;
 

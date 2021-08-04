@@ -338,6 +338,10 @@ p b {
   opacity: 80%;
   width: 87%;
 }
+
+.hpbox {
+  background-position: center;
+}
 .text {
   border-radius: 18px;
 
