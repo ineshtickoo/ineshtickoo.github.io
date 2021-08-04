@@ -1,5 +1,17 @@
 const projects = [
     {
+        name: "Harry Potter",
+        description: "Complete revamp of novel book covers, page layouts, new posters, website UI/UX and a trailer video!",
+        image: "",
+        link: "https://www.behance.net/gallery/124344065/Harry-Potter-Series-Design-Revamp"
+    },
+    {
+        name: "NFTZ",
+        description: "Demystifying NFT creation and trading for the layman.",
+        image: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/505/759/datas/medium.png",
+        link: "https://nfteasy.us/"
+    },
+    {
         name: "Potus",
         description: "Concept Kanye West Album; Complete branding and app UI/UX Design",
         image: "https://i.imgur.com/gWxQiQB.png",
@@ -40,7 +52,7 @@ const projects = [
         name: "CORE",
         description: "Website for CORE, the computers society of Delhi Public School, Dwarka",
         image: "https://i.imgur.com/Ay6yWtA.png",
-        link: "https://coreisus.co"
+        link: "https://hailcore.co"
     }
 ];
 
