@@ -16,14 +16,14 @@ const projects = [
         description: "Concept Kanye West Album; Complete branding and app UI/UX Design",
         image: "https://i.imgur.com/gWxQiQB.png",
         link: "https://www.behance.net/gallery/108134777/POTUS-Concept-Kanye-West-Album-and-UIUX"
-    },/*
+    },
     {
         name: "Hlo+",
         description: "Smart hyperlocalisation and crowd control system using 5G. UI/UX and workflow.",
         image:"https://i.imgur.com/RR2rEan.png",
         link: "https://www.behance.net/gallery/119577627/Hlo-UIUX"
 
-    },*/
+    },
     {
         name: "RediSafe",
         description: "Modern app for monitoring your health data offline and prevent contracting COVID.",
