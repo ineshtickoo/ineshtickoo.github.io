@@ -1,9 +1,46 @@
 const projects = [
     {
+        name: "RediSafe",
+        description: "Modern app for monitoring your health data offline and prevent contracting COVID.",
+        image: "https://i.imgur.com/RR2rEan.png",
+        link: "https://www.behance.net/gallery/119608771/Redisafe"
+    },
+    {
+        name: "Sahay",
+        description: "Sahay allows hospitals to work together and share resources during shortages.",
+        image: "https://i.imgur.com/9x5I6Z6.png",
+        link: "https://www.behance.net/gallery/118691091/Sahay-Consolidating-the-Healthcare-system?mv=email"
+    },
+    {
+        name: "Marketune",
+        description: "Improves customer call-retention by replacing annoying on-hold music with effective tunes/ads made by verified content creators.",
+        image: "https://i.imgur.com/kPCjLjK.png",
+        link: "https://www.behance.net/gallery/127690931/Marketune-Pitch-Deck-UIUX"
+    },
+    {
+        name: "SurveyDonkey",
+        description: "A decentralized platform that increases your survey reach and helps diversify responses.",
+        image: "https://i.imgur.com/YWNf6cz.png",
+        link: "https://devpost.com/software/surveydonkey"
+    },
+    {
+        name: "MerryDining",
+        description: "Make reservations at restaurants/bars matching your dietary restrictions, and connect with foodies who have similar taste!.",
+        image: "https://i.imgur.com/yfXq4aY.png",
+        link: "https://devpost.com/software/merrydining"
+    },
+    {
         name: "Harry Potter Redesign",
         description: "Complete revamp of novel book covers, page layouts, new posters, website UI/UX and a trailer video!",
         image: "",
         link: "https://www.behance.net/gallery/124344065/Harry-Potter-Series-Design-Revamp"
+    },
+    {
+        name: "Hlo+",
+        description: "Smart hyperlocalisation and crowd control system using 5G. UI/UX and workflow.",
+        image:"https://i.imgur.com/RR2rEan.png",
+        link: "https://www.behance.net/gallery/119577627/Hlo-UIUX"
+
     },
     {
         name: "NFTZ",
@@ -17,25 +54,7 @@ const projects = [
         image: "https://i.imgur.com/gWxQiQB.png",
         link: "https://www.behance.net/gallery/108134777/POTUS-Concept-Kanye-West-Album-and-UIUX"
     },
-    {
-        name: "Hlo+",
-        description: "Smart hyperlocalisation and crowd control system using 5G. UI/UX and workflow.",
-        image:"https://i.imgur.com/RR2rEan.png",
-        link: "https://www.behance.net/gallery/119577627/Hlo-UIUX"
-
-    },
-    {
-        name: "RediSafe",
-        description: "Modern app for monitoring your health data offline and prevent contracting COVID.",
-        image: "https://i.imgur.com/RR2rEan.png",
-        link: "https://www.behance.net/gallery/119608771/Redisafe"
-    },
-    {
-        name: "Sahay",
-        description: "Sahay allows hospitals to work together and share resources during shortages.",
-        image: "https://i.imgur.com/9x5I6Z6.png",
-        link: "https://www.behance.net/gallery/118691091/Sahay-Consolidating-the-Healthcare-system?mv=email"
-    },
+    
     {
         name: "SayLore",
         description: "Concept fashion brand based on Saylor Twift. Branding, shop 3D models and app UI/UX . ",
